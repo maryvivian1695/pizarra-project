@@ -1,0 +1,16 @@
+@use"../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+address{
+    .container{
+        @include flex(center, center, column);
+        p{
+            opacity: 50%;
+        }
+    }.third{
+        background-color: #F4F7FB;
+    }
+    h2 {
+        color: $primary-color;
+
+    }
+}

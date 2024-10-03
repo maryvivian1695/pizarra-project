@@ -19,7 +19,7 @@ ul {
 }
 
 nav {
-  background-color: lightgrey;
+  background-color: #8a8a8a;
 }
 nav .nav {
   display: flex;
@@ -58,4 +58,109 @@ nav .nav-right fa-bars {
   .fa-bars {
     display: none;
   }
+}
+section {
+  display: flex;
+}
+section .hero .heroleft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  display: flex;
+}
+section .heromiddle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+section .heromiddle .first {
+  background-color: #F4F7FB;
+  padding: 10px;
+  border-radius: 10px;
+}
+section .heromiddle .first .font {
+  background-color: #000;
+  border-radius: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+main {
+  margin-right: 20%;
+}
+main .flavours {
+  display: inline-flex;
+}
+main .flavours ul {
+  display: flex;
+}
+main .flavours ul li a {
+  padding: 10px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+main .flavours ul li a:hover {
+  background-color: orange;
+  color: white;
+}
+main .price {
+  display: flex;
+}
+main .price p {
+  opacity: 50%;
+}
+main .price button {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+}
+main .price .btn1 {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+}
+main .taste {
+  border-bottom: solid grey;
+}
+main h3 {
+  color: orange;
+}
+main .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+}
+
+about {
+  display: flex;
+}
+about h3 {
+  color: orange;
+}
+
+address .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: no-wrap;
+}
+address .container p {
+  opacity: 50%;
+}
+address .third {
+  background-color: #F4F7FB;
+}
+address h2 {
+  color: orange;
 }

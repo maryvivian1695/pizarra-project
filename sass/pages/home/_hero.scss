@@ -1,0 +1,30 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+section {
+    display: flex;
+.hero{
+        .heroleft{
+            @include flex( space-between, center);
+            display:flex;
+            
+            }
+            
+        }
+
+        .heromiddle{
+            @include flex( space-between, center);
+            .first{
+                background-color: #F4F7FB;
+                padding: 10px;
+                border-radius: 10px;
+                .font{
+                    background-color: #000;
+                    border-radius: 50px;
+                    width: 50%;
+                    @include flex(center,center,row)
+                }
+            }
+
+        }
+
+    }

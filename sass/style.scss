@@ -1,4 +1,7 @@
 @use "./utilities/base";
 @use "./utilities/variables";
-@use "../sass/pages/home/nav"
-    
+@use "../sass/pages/home/nav";
+@use "../sass/pages/home/hero"; 
+@use "../sass/pages/home/main";
+@use "../sass/pages/home/about";
+@use "../sass/pages/home/address";

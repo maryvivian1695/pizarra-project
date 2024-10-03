@@ -1,0 +1,9 @@
+ @use"../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+about{
+    display: flex;
+    h3{
+        color: $primary-color;
+    }
+    
+    }

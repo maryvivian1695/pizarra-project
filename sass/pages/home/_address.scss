@@ -3,19 +3,44 @@
 address{
     .container{
         .help{
+            // flex-direction: row;
+            // gap: 70px;
         p{
             opacity: 50%;
         }
     }.third{
         background-color: #F4F7FB;
+        width: 50px;
+        padding-top: 30px;
+        align-content: center;
+
+        
+        img{
+            // margin-top: -30px;
+            width: 100%;
+
+        }
     }
     h2 {
         color: $primary-color;
-
+        
     }
     .none{
         display: flex;
         justify-content: space-between;
+        // background-color: #F4F7FB;
+        // padding: 1%;
+        
+        .board{
+            background-color: #F4F7FB;
+            align-content: center;
+            text-align: center;
+            
+        }
+
+    }
+    .me{
+    text-align: center;
     }
 }
 }

@@ -186,6 +186,12 @@ address .container .help p {
 }
 address .container .third {
   background-color: #F4F7FB;
+  width: 50px;
+  padding-top: 30px;
+  align-content: center;
+}
+address .container .third img {
+  width: 100%;
 }
 address .container h2 {
   color: orange;
@@ -193,6 +199,14 @@ address .container h2 {
 address .container .none {
   display: flex;
   justify-content: space-between;
+}
+address .container .none .board {
+  background-color: #F4F7FB;
+  align-content: center;
+  text-align: center;
+}
+address .container .me {
+  text-align: center;
 }
 
 footer {

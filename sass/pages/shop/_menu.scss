@@ -1,6 +1,6 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
-main{
+menu{
   margin-right: 20%;
     .flavours{
         display: inline-flex;
@@ -28,7 +28,8 @@ main{
     }
     .price{
         display: flex;
-        justify-content: space-between;
+         justify-content: space-between;
+         margin-bottom: 15px;
         .p2{
           background-color: #F4F7FB;
           
@@ -39,32 +40,13 @@ main{
         .p4{
           background-color: #F4F7FB;
         }
-        p{
-            opacity: 50%;
+        .p5{
+        background-color: #F4F7FB;
         }
         button{
             background-color: #000;
             color: white;
             padding: 10px;
         }
-        .btn1 {
-          background-color: orange;
-          color:white;
-          padding: 10px;
-        }
     }
-
-    
-    h3 { 
-      color: $primary-color;
-    }
-}
-#new{
-  margin-left: 50%;
-}
-.in{margin-left: 40%;
-
-}
-.flavours{
-margin-left: 20%;
 }

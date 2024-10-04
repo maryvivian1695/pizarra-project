@@ -2,17 +2,21 @@
 @use "../../utilities/mixins" as *;
 section {
     display: flex;
+    padding-block-start: 5%;
+    
+
 .hero{
         .heroleft{
             @include flex( space-between, center);
-            display:flex;
-            
+            display:flex; 
+            padding-block-start: 10%;          
             }
             
         }
 
         .heromiddle{
             @include flex( space-between, center);
+            padding-block-start: 10%;
             .first{
                 background-color: #F4F7FB;
                 padding: 10px;
@@ -25,6 +29,10 @@ section {
                 }
             }
 
+        }
+        .heroright{
+            @include flex(center, center)    
+            
         }
 
     }

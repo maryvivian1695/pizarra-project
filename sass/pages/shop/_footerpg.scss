@@ -1,0 +1,29 @@
+@use"../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+footer{
+    background-color: #000;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    h1{
+        color:white;
+    }
+    .list{
+        list-style: none;
+        li{
+            
+            a{
+                color: white;
+            }
+        }
+    }
+    .all{
+border: 15px;
+    .remove{
+        border-style: none;
+    }
+   .btn3{
+    border-style: none;
+   }
+}
+}

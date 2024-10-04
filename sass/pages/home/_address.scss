@@ -2,7 +2,7 @@
 @use "../../utilities/mixins" as *;
 address{
     .container{
-        @include flex(center, center, column);
+        .help{
         p{
             opacity: 50%;
         }
@@ -13,4 +13,9 @@ address{
         color: $primary-color;
 
     }
+    .none{
+        display: flex;
+        justify-content: space-between;
+    }
+}
 }
